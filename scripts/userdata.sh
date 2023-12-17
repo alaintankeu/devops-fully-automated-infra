@@ -32,7 +32,7 @@ sudo cp /tmp/devops-fully-automated/prometheus-setup-dependencies/node-exporter.
 sudo systemctl daemon-reload
 sudo systemctl enable node-exporter
 sudo systemctl start node-exporter
-sudo systemctl status node-exporter
+sudo systemctl status node-exporter;=sq
 
 # Install Apache HTTP Server (httpd)
 sudo yum install httpd -y
